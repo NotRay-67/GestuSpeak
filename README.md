@@ -8,6 +8,48 @@
 - *Machine Learning Model:* Leveraging state-of-the-art machine learning techniques, our model ensures accurate and efficient sign language interpretation.
 - *Customizable and Extensible:* Tailor the model to specific requirements or expand its capabilities by adding new signs.
 
+## Project Directory Structure
+
+- **GestuSpeak_Project**
+  - **data**
+    - **raw**
+      - class1
+        - image1.jpg
+        - image2.jpg
+        - ...
+      - class2
+        - image1.jpg
+        - image2.jpg
+        - ...
+      - ...
+    - **processed**
+      - **train**
+        - class1
+          - image1.jpg
+          - image2.jpg
+          - ...
+        - class2
+          - image1.jpg
+          - image2.jpg
+          - ...
+        - ...
+      - **test**
+      - **validation**
+  - **models**
+    - trained_model.h5
+  - **notebooks**
+    - exploratory_analysis.ipynb
+    - model_training.ipynb
+    - model_evaluation.ipynb
+  - **src**
+    - data_preprocessing.py
+    - model.py
+    - train.py
+    - predict.py
+  - requirements.txt
+  - README.md
+
+
 ## Getting Started
 1. **Clone the repository:** `git clone https://github.com/your-username/GestuSpeak.git`
 2. **Install dependencies:** `pip install -r requirements.txt`
