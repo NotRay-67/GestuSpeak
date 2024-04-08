@@ -56,7 +56,7 @@
 3. **Run the application:** `python app.py`
 
 ## Contributing
-We welcome contributions from the community! Whether you're interested in improving the model, enhancing the user interface, or adding new features, your input is valuable.
+We welcome contributions from the community! Whether you're interested in improving the model,enhancing the user interface, or adding new features, your input is valuable.
 
 ## License
 This project is licensed under the MIT License 
